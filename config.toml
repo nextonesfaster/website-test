@@ -1,5 +1,5 @@
-base_url = "https://nextonesfaster.github.io/website-test/"
-title = "nextonesfaster"
+base_url = "https://nextonesfaster.github.io/website-test"
+title = "sujalb"
 build_search_index = true
 generate_feed = true
 compile_sass = true
@@ -14,17 +14,19 @@ toc = true
 use_cdn = false
 favicon = "/icon/favicon.png"
 theme = "dark"
-home_path = "/home/nof"
+home_path = "/home/sujalb"
+home_title = "home"
 
 menu = [
     { name = "projects", url = "/projects", weight = 1 },
-    { name = "posts", url = "/posts", weight = 2 },
-    { name = "about.txt", url = "/about", weight = 3 },
-    { name = "home.md", url = "/", weight = 4 },
+    # { name = "posts", url = "/posts", weight = 2 },
+    { name = "about.md", url = "/about", weight = 2 },
+    { name = "resume.pdf", url = "/resume.pdf", weight = 3 },
 ]
 
 socials = [
     { name = "github", url = "https://github.com/nextonesfaster/", icon = "github" },
+    { name = "email", url = "mailto:sujalbolia@gmail.com", icon = "email" },
 ]
 
 custom_css = []

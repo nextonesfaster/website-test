@@ -5,7 +5,7 @@ weight = 3
 
 [extra]
 cmd = "cat"
-cmd_arg = "tvm-assistant/README.md"
+cmd_arg = "tvm-assistant.md"
 toc = false
 author = "AriusX7"
 project_home = "https://github.com/AriusX7/tvm-assistant"

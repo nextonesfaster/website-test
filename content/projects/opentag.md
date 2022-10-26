@@ -5,7 +5,7 @@ weight = 0
 
 [extra]
 cmd = "cat"
-cmd_arg = "opentag/README.md"
+cmd_arg = "opentag.md"
 toc = false
 project_home = "https://github.com/nextonesfaster/opentag"
 +++

@@ -5,7 +5,7 @@ weight = 4
 
 [extra]
 cmd = "cat"
-cmd_arg = "brawlcord/README.md"
+cmd_arg = "brawlcord.md"
 toc = false
 author = "brawlcord"
 project_home = "https://github.com/brawlcord/brawlcord"

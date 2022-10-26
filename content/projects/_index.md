@@ -1,7 +1,7 @@
 +++
 paginate_by = 10
 path = "projects"
-title = "Projects"
+title = "projects"
 sort_by = "weight"
 
 [extra]

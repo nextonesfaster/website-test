@@ -5,7 +5,7 @@ weight = 1
 
 [extra]
 cmd = "cat"
-cmd_arg = "eyeint/README.md"
+cmd_arg = "eyeint.md"
 toc = false
 project_home = "https://github.com/nextonesfaster/eyeint"
 +++

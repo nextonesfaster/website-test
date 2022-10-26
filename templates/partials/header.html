@@ -9,11 +9,19 @@
     {% set current_path = current_path | default(value="/") %}
     {% if current_path == "/" %}
     <title>
-        {{ config.title | default(value="Home") }}
+        {{ config.extra.home_title | default(value="Home") }} - {{ config.title }}
+    </title>
+    {% elif page.title %}
+    <title>
+        {{ page.title }} - {{ config.title }}
+    </title>
+    {% elif section.title %}
+    <title>
+        {{ section.title }} - {{ config.title }}
     </title>
     {% else %}
     <title>
-        {{ page.title | default(value=config.title) | default(value="Post") }}
+        {{ config.title }}
     </title>
     {% endif %}
 
@@ -25,7 +33,6 @@
     {# Font from cdn or disk #}
     {% if config.extra.use_cdn | default(value=false) %}
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/space-grotesk@4.5.8/index.min.css">
     {% else %}
     <link href={{ get_url(path="fonts.css" ) }} rel="stylesheet" />
     {% endif %}

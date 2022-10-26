@@ -5,7 +5,7 @@ weight = 6
 
 [extra]
 cmd = "cat"
-cmd_arg = "lzham/README.md"
+cmd_arg = "lzham.md"
 toc = false
 author = "AriusX7"
 project_home = "https://github.com/AriusX7/lzham"
