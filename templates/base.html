@@ -5,14 +5,32 @@
 {% include "partials/header.html" %}
 
 <body>
+    {% include "partials/nav.html" %}
     <div class="content">
-        {% include "partials/nav.html" %}
-
         {# Post page is the default #}
         {% block main_content %}
-            Nothing here?!
+        Nothing here?!
         {% endblock main_content %}
     </div>
+
+    <!--Footer-->
+    <footer>
+        <div class="footer-misc">
+            <p>made with
+                <a href="https://www.getzola.org">zola</a>.
+                based on the
+                <a href="https://www.getzola.org/themes/apollo/">apollo</a>
+                theme. contact:
+                <a href="mailto:sujalbolia@gmail.com">sujalbolia[at]gmail[dot]com</a>.
+            </p>
+        </div>
+        {# <div class="footer-email">
+            <p>sujalbolia[at]gmail[dot]com</p>
+        </div> #}
+        <div class="footer-copyright">
+            <p>copyright (c) 2022 sujal</p>
+        </div>
+    </footer>
 </body>
 
 </html>

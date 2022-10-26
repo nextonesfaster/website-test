@@ -1,6 +1,6 @@
 <header>
     <div class="main">
-        <a href={{ config.base_url }}>{{ config.title }}</a>
+        <a href={{ config.base_url }}>{{ config.extra.home_path | default(value=config.title) }}</a>
 
         <div class="socials">
             {% for social in config.extra.socials %}
@@ -12,8 +12,10 @@
     </div>
 
     <nav>
+        <span class="ls">>: ls </span>
+        <span class="tilde">~</span>
         {% for menu in config.extra.menu %}
-            <a href={{ menu.url }} style="margin-left: 0.7em">{{ menu.name }}</a>
+        <a href={{ menu.url }} style="margin-left: 0.7em">{{ menu.name }}</a>
         {% endfor %}
     </nav>
 </header>

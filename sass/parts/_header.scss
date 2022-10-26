@@ -32,9 +32,15 @@ header .main {
   align-items: flex-start;
   gap: 12px;
   font-size: 1.5rem;
+  margin-right: 0;
 
   /* Otherwise header and menu is too close on small screens*/
   margin-bottom: 10px;
+}
+
+header .main::before {
+  content: 'cd';
+  color: var(--cmd-color);
 }
 
 .socials {
@@ -111,4 +117,14 @@ h6::before {
   .social>img {
     filter: invert(1);
   }
+}
+
+nav .ls {
+  color: var(--cmd-color);
+}
+
+nav .tilde {
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: underline;
+  margin-right: 1ex;
 }

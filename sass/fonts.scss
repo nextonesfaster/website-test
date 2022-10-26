@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono');
+
 @font-face {
-  font-family: 'Jetbrains Mono';
+  font-family: 'Ubuntu Mono';
   font-style: normal;
   font-weight: 400;
-  src: url('../fonts/JetbrainsMono/JetBrainsMono-Regular.ttf'), local('ttf');
+  src: 'Ubuntu Mono';
+  // src: url('../fonts/JetbrainsMono/JetBrainsMono-Regular.ttf'), local('ttf');
   font-display: swap;
 }
 

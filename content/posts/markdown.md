@@ -1,6 +1,10 @@
 +++
 title = "Markdown Test"
 date = "2022-01-01"
+
+[extra]
+cmd = "cat"
+cmd_arg = "markdown_test.md"
 +++
 
 ## Code Block

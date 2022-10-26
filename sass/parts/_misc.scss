@@ -61,3 +61,57 @@ time {
     padding: 0;
   }
 }
+
+.cmd-color {
+  color: var(--cmd-color);
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  flex-shrink: 0;
+  margin: 0 calc(-1 * var(--margin-sides));
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  bottom: 0;
+
+}
+
+footer #footer-misc,
+footer #copyright {
+  display: inline-block
+}
+
+footer {
+  background-color: #50395c
+}
+
+footer p {
+  // color: #faebd7;
+  font-size: 14px;
+  margin: 4px 10px 4px 10px;
+}
+
+.posts-list {
+  margin-bottom: 15px;
+}
+
+.description {
+  color: grey;
+  margin: 5px auto;
+}
+
+.perm-r {
+  color: #00cfe0;
+}
+
+.perm-w {
+  color: #ffcc4e;
+}
+
+.ls-author {
+  color: #e0cda7;
+}
