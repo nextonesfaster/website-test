@@ -13,4 +13,6 @@ I believe open-source software is critical for software development and try my b
 
 Outside of computer science, you can find me getting psyched by sports such as cricket, football, badminton, and pool. I also love watching anime, ranging from drama to psychological thrillers to comedies, going out on a good hike, and jamming out to music! My favourite genres to listen to are hip-hop, r&b, indie, and pop.
 
-I'm always curious to work on interesting projects, so feel free to send me an email at [sujalbolia\[at\]gmail\[dot\]com](mailto:sujalbolia@gmail.com) to get in touch! You can also reach me on Discord at `Arius#5544`.
+I often go by pseudonyms "nextonesfaster" and "Arius" online.
+
+I'm always curious to work on interesting projects, so feel free to send me an email at [sujalbolia\[at\]gmail\[dot\]com](mailto:sujalbolia@gmail.com) to get in touch!

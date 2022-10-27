@@ -1,4 +1,4 @@
-base_url = "https://www.sujalb.com"
+base_url = "https://www.sujalb.com/"
 title = "sujalb"
 build_search_index = true
 generate_feed = true
@@ -19,7 +19,6 @@ home_title = "home"
 
 menu = [
     { name = "projects", url = "/projects", weight = 1 },
-    # { name = "posts", url = "/posts", weight = 2 },
     { name = "about.md", url = "/about", weight = 2 },
     { name = "resume.pdf", url = "/resume.pdf", weight = 3 },
 ]
