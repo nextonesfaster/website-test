@@ -2,7 +2,7 @@
 <ul>
     {%- for page in pages %}
     <section class="posts-list">
-        .<span class="perm-r">r</span> <span class="perm-w">w</span>-<span class="perm-r">r</span>--<span
+        -<span class="perm-r">r</span> <span class="perm-w">w</span>-<span class="perm-r">r</span>--<span
             class="perm-r">r</span>--
         &nbsp;<span class="ls-author">{{page.extra.author | default(value="nextonesfaster")}}</span>
         {%- if page.date %}
