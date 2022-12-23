@@ -1,7 +1,7 @@
 +++
 title = "lzham"
-description = "high-level Rust bingings for lzham codec"
-weight = 6
+description = "High-level Rust bingings for lzham codec"
+weight = 7
 
 [extra]
 cmd = "cat"

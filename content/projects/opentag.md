@@ -1,6 +1,6 @@
 +++
 title = "opentag"
-description = "a command-line tool that opens a tagged path or URL using the configured system program."
+description = "A command-line tool that opens a tagged path or URL using the configured system program."
 weight = 0
 
 [extra]

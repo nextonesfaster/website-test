@@ -1,7 +1,7 @@
 +++
 title = "serenity"
-description = "a Rust library for the Discord API."
-weight = 2
+description = "A Rust library for the Discord API."
+weight = 3
 
 [extra]
 cmd = "cat"

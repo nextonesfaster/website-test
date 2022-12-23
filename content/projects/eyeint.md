@@ -1,7 +1,7 @@
 +++
 title = "eyeint"
-description = "a command line app to inspect arbitrary sized integers without various settings."
-weight = 1
+description = "A command line app to inspect arbitrary sized integers without various settings."
+weight = 2
 
 [extra]
 cmd = "cat"

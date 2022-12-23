@@ -1,7 +1,7 @@
 +++
 title = "godfather"
-description = "a Discord bot that hosts games of Werewolf/Mafia."
-weight = 5
+description = "A Discord bot that hosts games of Werewolf/Mafia."
+weight = 6
 
 [extra]
 cmd = "cat"
