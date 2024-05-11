@@ -7,8 +7,7 @@ weight = 4
 cmd = "cat"
 cmd_arg = "tvm-assistant.md"
 toc = false
-author = "AriusX7"
-project_home = "https://github.com/AriusX7/tvm-assistant"
+author = "nextonesfaster"
 +++
 
 TvM Assistant is a Discord bot with utility commands to make hosting and playing TvMs easier.
