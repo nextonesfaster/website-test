@@ -1,7 +1,7 @@
 +++
 title = "tvm-assistant"
 description = "A Discord bot with utility commands to make hosting and playing TvMs easier."
-weight = 4
+weight = 0
 
 [extra]
 cmd = "cat"

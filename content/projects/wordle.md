@@ -1,7 +1,7 @@
 +++
 title = "wordle-cli"
 description = "wordle-cli (wrdl) is a terminal-based game of Wordle."
-weight = 1
+weight = 3
 
 [extra]
 cmd = "cat"

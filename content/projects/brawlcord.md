@@ -1,6 +1,6 @@
 +++
 title = "brawlcord"
-description = "A Discord bot which allows users to play a simplified version of the game Brawl Stars on Discord"
+description = "A Discord bot which allows users to play a simplified version of the game Brawl Stars on Discord."
 weight = 5
 
 [extra]
