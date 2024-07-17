@@ -26,6 +26,7 @@ menu = [
 socials = [
     { name = "github", url = "https://github.com/nextonesfaster/", icon = "github" },
     { name = "email", url = "mailto:sujalbolia@gmail.com", icon = "email" },
+    { name = "linkedin", url = "https://www.linkedin.com/in/sujal-bolia/", icon = "linkedin" },
 ]
 
 custom_css = []
