@@ -6,7 +6,7 @@ Welcome to my personal website, crafted with [Zola](https://www.getzola.org/) an
 
 If you'd like to set up your website similarly, follow these steps to run it locally:
 
-1. [Download Zola](https://www.getzola.org/documentation/getting-started/installation/).
+1. [Download Zola.](https://www.getzola.org/documentation/getting-started/installation/)
 2. Clone this repository:
     ```sh
     git clone git@github.com:nextonesfaster/sujalb.com.git
